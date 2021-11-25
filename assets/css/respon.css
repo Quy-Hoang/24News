@@ -1,0 +1,265 @@
+/* PC*/
+@media only screen and (min-width: 64em) {
+    
+}
+
+/* taplet*/
+@media only screen and (min-width: 46.25em) and (max-width: 64em) {
+    #header__main {
+        padding: 0 24px;
+    }
+    .container__content {
+        width: 1200px;
+    }
+
+    .container__content-items {
+        width: 220px;
+    }
+
+    .new__content {
+        width: 1100px;
+    }
+
+    .new__content-img {
+        width: 300px;
+    }
+
+    .videonew__content {
+        width: 1200px;
+    }
+
+    iframe {
+        width: 300px;
+    }
+
+    .videonew__content-img {
+        width: 300px;
+    } 
+    .footer {
+        padding: 0 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .item-right {
+        top:150px;
+    }
+
+    .navbar__item {
+        margin: 0 10px;
+    }
+
+    .navbar {
+        justify-content: center;
+        display: flex;
+    }
+
+    .pau__videonew {
+        left: 115px;
+    }
+
+    .new__content {
+        margin: 0;
+    }
+
+    .new__content-img {
+        width: 358px;
+        margin-right: 18px;
+    }
+
+    .videonew__content {
+        margin: 0;
+    }
+
+    iframe {
+        width: 358px;
+    }
+
+    .videonew__content-items {
+        margin-right: 17px;
+    }
+
+    .videonew__content-img {
+        width: 358px;
+    }
+
+    .pau__videonew {
+        left: 140px;
+    }
+
+    .container__f {
+        flex-direction: column;
+    }
+
+    #container__l {
+        width: 100%;
+    }
+
+    #container__r {
+        width: 100%;
+        display: flex;
+        margin-bottom: 24px;
+    }
+
+    .container__r-items {
+        padding: 0 15px;
+    }
+
+    #footer {
+        clip-path: polygon(0 13%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .footer {
+        padding: 0 24px;
+    }
+
+    #footer__content {
+        flex-wrap: wrap;
+    }
+
+    .f__last {
+        width: 450px;
+    }
+
+    .last__listimg {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 15px;
+    }
+
+    .form-control {
+        width: 400px !important;
+    }
+    
+}
+
+/* mobi*/
+@media only screen and (max-width: 46.1875em) {
+    #header__main {
+        padding: 0 24px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .header__items-logo {
+        display: block;
+        width: 135px;
+        padding: 20px 0;
+    }
+
+    .header__infor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header__main-iconinfo {
+        padding: 50px 0;
+    }
+
+    .header__infor-icon {
+        padding: 15px 0;
+    }
+
+    .header__main {
+        justify-content: center;
+    }
+
+    .header__main-iconinfo {
+        width: 370px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .header__main-icons {
+        margin: 0 10px;
+    }
+
+    .header__infor-tren::before {
+        display: none;
+    }
+    
+    .header__infor-text {
+        width: 250px;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    #header__items {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 32px !important;
+    }
+
+    .header__items {
+        display: none;
+    }
+
+    .nav__icons {
+        display: block;
+    }
+
+    .nav__icons svg {
+        width: 35px;
+        height: 35px;
+        margin-top: 45px;
+    }
+
+    #slider {
+        flex-direction: column; 
+    }
+
+    .slider__left {
+        width: 100%;
+    }
+
+    .slider__right {
+        width: 100%;
+    }
+    
+    .container__content {
+        width: 1200px;
+    }
+
+    .container__content-items {
+        width: 220px;
+    }
+
+    #container__r {
+        flex-direction: column;
+    }
+
+    .btn-text {
+        padding: 5px 10px !important;
+        margin: 0 5px;
+    }
+
+    .container__l-items {
+        flex-direction: column;
+    }
+
+    #footer {
+        clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .f__last {
+        width: 250px;
+    }
+
+    .last__listimg {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .form-control  {
+        width: 185px !important;
+    }
+
+    .fh5c0__footer {
+        flex-direction: column;
+    }
+}
+
+
