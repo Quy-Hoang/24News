@@ -103,6 +103,9 @@ body {
     border-radius: 50%;
     margin-top: 30px;
     transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__main-icons:hover {
@@ -654,7 +657,7 @@ body {
     text-decoration: underline;
     transition: 0.5s;
 }
-
+/* 
 #footer {
     width: 100%;
     height: 100%;
@@ -664,7 +667,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* position: relative; */
 }
 
 .footer {
@@ -888,4 +890,4 @@ body {
 
 .fh5c0__footer-nav a:hover {
     text-decoration: underline;
-}
+} */

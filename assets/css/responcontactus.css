@@ -1,0 +1,55 @@
+/* PC*/
+@media only screen and (min-width: 64em) {
+    
+}
+
+/* taplet*/
+@media only screen and (min-width: 46.25em) and (max-width: 64em) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .container__fluid {
+        flex-direction: column;
+        padding: 24px 16px;
+    }
+
+    .container__fluid-items {
+        width: 100%;
+    }
+    
+    .contactus__container {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .contactus__container-items {
+        width: 100%;
+        padding: 0 24px;
+    }
+    
+}
+
+/* mobi*/
+@media only screen and (max-width: 46.1875em) {
+    .container__fluid {
+        flex-direction: column;
+        padding: 24px 16px;
+    }
+
+    .container__fluid-items {
+        width: 100%;
+    }
+    
+    .contactus__container {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .contactus__container-items {
+        width: 100%;
+        padding: 0 24px;
+    }
+}
+
+
